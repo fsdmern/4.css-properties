@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+}
+/*
+Possibilities
+1. Move object from original position
+2. Rotate - Angle of the object
+3. Make the object to the center (can be done using flex)
+*/
+
+/*
+position:
+a. static
+b. relative
+c. fixed
+d. abosolute
+e. sticky
+*/
+h1 {
+  font-size: 72px;
+}
+
+.div-obj1 {
+  background-color: aqua;
+  width: 150px;
+  height: 200px;
+  border: 2px solid goldenrod;
+}
+
+.div-obj2 {
+  background-color: blue;
+  opacity: 0.2;
+  width: 50px;
+  height: 70px;
+  border: 2px solid gray;
+  position: absolute;
+  top: 20px;
+}
+
+.sticky-head {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: antiquewhite;
+}
